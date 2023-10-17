@@ -1,0 +1,114 @@
+// Task1  Declare a function fullName and it prints out your full name.
+
+// function fullName() {
+//     console.log("Orxan Abdullazada")
+// }
+
+// fullName()
+
+
+
+
+
+//Task2  Declare an arrow function fullName and now it takes firstName, lastName as a parameter and returns your full name.
+
+// function fullName(firstName, lastName) {
+//     return `${firstName} ${lastName}`
+// }
+
+// console.log(`${fullName("Orxan", "Abdullazada")}`)
+
+
+
+
+// //Task3   A perimeter of a rectangle is calculated as follows: perimeter= 2x(length + width). Write a function that calculates perimeterOfRectangle.
+// let teref1 = parseInt(prompt("Birinci terefi daxil edin"))
+// let teref2 = parseInt(prompt("Ikinci terefi daxil edin"))
+
+// function perimeterOfRectangle(length, width) {
+//     let perimeter = 2 * (length + width)
+//     return perimeter
+// }
+
+// if (teref1 > 0 && teref2 > 0) {
+//     console.log("Perimetr :" + perimeterOfRectangle(teref1, teref2))
+// } else {
+//     console.log("Daxil edilen teref duzgun yazilis deyil")
+// }
+
+
+
+
+//Task4   Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function that calculates BMI. BMI is used to broadly define different weight groups in adults 20 years old or older. Check if a person is underweight, normal, overweight, or obese based on the information given below.
+// The same groups apply to both men and women.
+// Underweight: BMI is less than 18.5
+// Normal Weight: BMI is 18.5 to 24.9
+// Overweight: BMI is 25 to 29.9
+// Obese: BMI is 30 or more
+
+// let boy = parseFloat(prompt("Boyunuzu daxil edin")); //boyumuz kesr ededdir deye float ile yazmaq lazimdi
+// let ceki = parseInt(prompt("Çəkinizi daxil edin"));
+
+// function calculatedBMI(weight, height) {
+//     let bmi = weight / (height * height);
+//     return bmi;
+// }
+
+// if (boy > 0 && ceki > 0) {
+//     let bmi = calculatedBMI(ceki, boy);
+//     console.log(bmi)
+
+//     if (bmi < 18.5) {
+//         alert("Siz çox ariqsiniz");
+//     } else if (bmi >= 18.5 && bmi <= 24.9) {
+//         alert("Siz normalsiniz");
+//     } else if (bmi >= 25 && bmi <= 29.9) {
+//         alert("Siz koksunuz");
+//     } else if (bmi >= 30) {
+//         alert("Siz obezsiniz");
+//     }
+// } else {
+//     alert("Daxil etdiyiniz dəyərlər düzgün deyil");
+// }
+
+
+
+//Task5 Math.max returns its largest argument. Write a function findMax that takes three arguments and returns their maximum without using Math.max method.
+// function findMax(a, b, c) {
+//     if (a >= b && a >= c) {
+//         return a;
+//     } else if (b >= a && b >= c) {
+//         return b;
+//     } else {
+//         return c;
+//     }
+// }
+
+// console.log("Maksimum dəyər: " + findMax(-3, -5, -6));
+
+
+
+
+//Task6   Declare a function name. It takes an array as a parameter and it returns the reverse of the array (don't use method).
+// function reverseArray(array) {
+//     let addArray = [];
+//     for (let i = array.length - 1; i >= 0; i--) {
+//         addArray.push(array[i])
+//     }
+//     return addArray
+// }
+
+// console.log(reverseArray([9, 8, 7, 6, 5, 4, 3, 2, 1]))
+
+
+
+
+//Task7  Write a function pow(x,n) that returns x in power n. Or, in other words, multiplies x by itself n times and returns the result.
+// function pow(x, n) {
+
+//         let findPow = x ** n;
+//         return findPow;
+//     
+// }
+
+// console.log(pow(3, 3));
